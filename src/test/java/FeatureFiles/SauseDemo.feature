@@ -9,3 +9,7 @@ Feature: SauseDemo Application
     Given user is on productpage
     When user sorts poroduct and add products
     And click on shoping cart container button
+
+    Scenario: checkout button functionality
+    When click on checkout button
+    Then validate URL
